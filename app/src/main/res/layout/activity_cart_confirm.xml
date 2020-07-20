@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartConfirm">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="matrix"
+        android:src="@drawable/mo" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageView9"
+        android:layout_above="@id/imagebuttontop10" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:src="@drawable/ucyclelogosign" />
+
+    <TextView
+        android:id="@+id/textViewRes"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_marginLeft="-16dp"
+        android:layout_toEndOf="@+id/imageView10"
+        android:layout_toRightOf="@+id/imageView10"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_alignTop="@+id/imageView10"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@+id/imageView10"
+        android:gravity="center_vertical"
+        android:text="@string/stconfirmcart"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@+id/imageView10"
+        android:gravity="center_vertical"
+        android:text="@string/stvalueitems"
+        android:textColor="@color/uGreenDark"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/textViewCopyright2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/imagebuttontop10"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/textViewCopyright2"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/umenu99" />
+
+    <TextView
+        android:id="@+id/textClearCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebuttontop10"
+        android:layout_alignStart="@+id/imagebuttontop10"
+        android:layout_marginTop="-8dp"
+        android:text="@string/tx_cc"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/colorAccent"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/imagebuttontop11"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/textViewCopyright2"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/umenu12" />
+
+    <TextView
+        android:id="@+id/textAddCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebuttontop12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-8dp"
+        android:text="@string/tx_ac"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/uZGreen2"
+        android:textSize="10dp" />
+
+
+    <ImageButton
+        android:id="@+id/imagebuttontop12"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@id/textViewCopyright2"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/umenu9" />
+
+    <TextView
+        android:id="@+id/textScheduleCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagebuttontop11"
+        android:layout_alignEnd="@+id/imagebuttontop11"
+        android:layout_marginTop="-8dp"
+        android:text="@string/tx_sc"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/uZGreen2"
+        android:textSize="10dp" />
+
+</RelativeLayout>

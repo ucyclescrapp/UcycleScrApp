@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:scaleType="matrix"
+        android:src="@drawable/mo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:src="@drawable/ucyclelogosign" />
+
+    <TextView
+        android:id="@+id/textViewRes"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="-16dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:gravity="center_vertical"
+        android:text="@string/strecord"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_marginLeft="-48dp"
+        android:layout_toRightOf="@+id/imageView4"
+        android:gravity="center_vertical"
+        android:text=" "
+        android:textColor="@color/uGreenDark"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView16"
+        android:layout_marginTop="32dp"
+        android:layout_alignStart="@id/textView16"
+        android:gravity="left"
+        android:textColor="@color/uGreenDark"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@id/textViewAll" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="160dp"
+        android:layout_height="128dp"
+        android:layout_alignBottom="@id/imageView7"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

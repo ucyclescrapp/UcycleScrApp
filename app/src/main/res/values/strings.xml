@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">U-Cycle</string>
+    <string name="dev_name">developed by rilobas.app</string>
+    <string name="copyright_name">© U-Cycle 2020</string>
+
+    <string name="stvalueitems">Items</string>
+    <string name="stvalue">Value My Waste</string>
+    <string name="stweight">Total Weight:</string>
+
+    <string name="stwallbal">Balance:</string>
+    <string name="stwallexc">Exchange Rate:</string>
+    <string name="stwalltra">Transfer to Bank:</string>
+    <string name="stwallcon">Convert To Crypto:</string>
+
+    <string name="st_sch_sum">Show Summary</string>
+    <string name="st_sch">Schedule</string>
+    <string name="st_sel_loc">Location:</string>
+    <string name="st_sel_pdate">Preferred Pickup Date:</string>
+    <string name="st_sel_ptime">Preferred Pickup Time</string>
+    <string name="st_schm">MORNING</string>
+    <string name="st_scha">AFTERNOON</string>
+    <string name="st_sche">EVENNING</string>
+
+    <string name="st_sel_phone">Phone:</string>
+    <string name="st_sel_gps">Gps:</string>
+
+    <string name="st_proceed">Proceed</string>
+    <string name="st_placeschedule">Place Schedule</string>
+
+    <string name="st_back">Continue</string>
+
+    <string name="st_vs">Value By Selection</string>
+    <string name="st_vw">Value By Weight</string>
+
+    <string name="st_weight">Value By Weight</string>
+
+    <string name="st_home">Home</string>
+
+    <string name="st_history">Transaction History</string>
+    <string name="st_faq">Frequently Asked Questions</string>
+
+    <string name="sp_phone">Pickup Phone</string>
+    <string name="sp_address">Pickup Address</string>
+    <string name="sp_landmark">Pickup Nearest Landmark</string>
+
+    <string name="st_con1">Phone: +234 907 333 6000</string>
+    <string name="st_con2">Email: info@u-cycle.app</string>
+    <string name="st_con3">Twitter: @Ucycle_Recycle</string>
+    <string name="st_con4">Facebook: @Ucyclescrapapp</string>
+    <string name="st_con5">Instagram: </string>
+
+    <string name="storepage_name">Barter Shop</string>
+
+    <string name="st_iwt">Weight:</string>
+    <string name="st_iqt">Quantity:</string>
+
+    <string name="sp_wt">Kg</string>
+    <string name="sp_qt">Units</string>
+
+    <string name="strecord">My Orders</string>
+    <string name="stconsumer">Consumer Goods</string>
+
+    <string name="sp_qty">Qty: </string>
+
+    <string name="etherscan_ref">Powered by Etherscan.io APIs</string>
+    <string name="i_start">click the icon to begin</string>
+
+    <string name="stconfirmcart">Confirm Cart</string>
+
+    <string name="tx_cc">Clear Cart</string>
+    <string name="tx_ac">Continue Selection</string>
+    <string name="tx_sc">Checkout</string>
+
+
+    <string-array name="array_name">
+        <item>Select</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854144209030",
+    "firebase_url": "https://u-cycle-a3b59.firebaseio.com",
+    "project_id": "u-cycle-a3b59",
+    "storage_bucket": "u-cycle-a3b59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854144209030:android:19a6a271d0dd7e41cd4107",
+        "android_client_info": {
+          "package_name": "app.rilobas.ucycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854144209030-k7di79p25mn5k2jfcd4urobft9qm97hr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.rilobas.ucycle",
+            "certificate_hash": "ee88c72cc38f1dc1ff1f85edf3d619575f3703d0"
+          }
+        },
+        {
+          "client_id": "854144209030-op45kjsc7kc0cb3kg5te40i82omv7neh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqTMfcjfSphIm-Ckur_pVWpKsb8D7h5Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854144209030-op45kjsc7kc0cb3kg5te40i82omv7neh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

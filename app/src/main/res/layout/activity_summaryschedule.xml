@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummaryscheduleActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ucyclebase5" />
+
+    <TextView
+        android:id="@+id/textViewRes2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="56dp"
+        android:src="@drawable/ucyclelogosign" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="left"
+        android:text=".."
+        android:textColor="@color/uGreenDark"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/uZGreen1"
+        android:text="@string/st_placeschedule"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/copyright_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewRes2"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/edtAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8dp"
+        android:gravity="left"
+        android:hint="@string/sp_phone"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textColor="@color/uGreenDark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/edtLandmark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8dp"
+        android:gravity="left"
+        android:hint="@string/sp_address"
+        android:inputType="text"
+        android:maxLength="50"
+        android:textColor="@color/uGreenDark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/edtLandmark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="8dp"
+        android:gravity="left"
+        android:hint="@string/sp_landmark"
+        android:inputType="text"
+        android:maxLength="40"
+        android:textColor="@color/uGreenDark"
+        android:textSize="24dp" />
+
+</RelativeLayout>

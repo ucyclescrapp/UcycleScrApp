@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ucyclebase" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="32dp"
+        android:src="@drawable/ucyclelogosign" />
+
+
+    <RelativeLayout
+        android:id="@+id/rellay"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/whitesquareback">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="confirm password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:background="@color/uZGreen"
+            android:text="Register" />
+
+        <TextView
+            android:id="@+id/textViewRes"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="10dp"
+            android:layout_below="@id/button1" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

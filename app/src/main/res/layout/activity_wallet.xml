@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WalletActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ucba3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="56dp"
+        android:src="@drawable/ucyclelogosign" />
+
+    <TextView
+        android:id="@+id/txtWallBal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-32dp"
+        android:gravity="left"
+        android:text="@string/stwallbal"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+        android:id="@+id/rev3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/textViewExc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/stwallexc"
+            android:textColor="@color/uGreenDark"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/textView"
+        android:layout_below="@id/rev3"
+        android:layout_marginTop="4dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/copyright_name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/uback" />
+
+</RelativeLayout>

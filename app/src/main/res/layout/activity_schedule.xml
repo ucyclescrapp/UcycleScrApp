@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vss" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:padding="32dp"
+        android:src="@drawable/ucyclelogosign" />
+
+    <Spinner
+        android:id="@+id/spinnerLoc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/textView16"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/spinnerLoc"
+        android:layout_marginTop="8dp"
+        android:background="#8CC63F"
+        android:gravity="center_horizontal"
+        android:text="@string/st_sel_pdate"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/imagebuttontop"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/umenu12" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/st_sch"
+            android:textSize="18dp" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/st_sch"
+            android:textSize="18dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="8dp"
+        android:background="#8CC63F"
+        android:gravity="center"
+        android:text="@string/st_sel_ptime"
+        android:textColor="@android:color/background_light"
+        android:textSize="18dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:textSize="18dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_schm"
+            android:layout_marginTop="4dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_scha"
+            android:layout_marginTop="4dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st_sche"
+            android:layout_marginTop="4dp"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewBord"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/radioGroup2"
+        android:layout_marginTop="4dp"
+        android:background="#8CC63F"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ubutton"
+        android:text="@string/st_sch_sum"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewRes"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14dp" />
+
+</RelativeLayout>

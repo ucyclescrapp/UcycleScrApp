@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="uRed">#CC0000</color>
+    <color name="uYellow">#FCEE21</color>
+    <color name="uGreen">#8CC63F</color>
+    <color name="uBlue">#0A33E4</color>
+
+    <color name="uGreenDark">#006837</color>
+    <color name="uZGreen">#0A8E69</color>
+
+    <color name="uZGreen1">#62C40B</color>
+    <color name="uZGreen2">#62984D</color>
+</resources>

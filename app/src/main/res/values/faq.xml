@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="faq1"></string>
+    <string name="faq1a">Recycling is the process of collecting and processing materials that would otherwise be thrown away as trash and turning them into new products.</string>
+
+    <string name="faq2">Is recycling truly beneficial for the environment ?</string>
+    <string name="faq2a">Yes, reliable data has shown that recycling conserves energy, natural resources and also protects the planet.</string>
+
+    <string name="faq3">How does recycling save energy ?</string>
+    <string name="faq3a">When we make new products out of virgin materials, we expend energy to extract and process those materials. However, if we manufacture products using recycled materials, we reduce the need for virgin materials and save the energy required to extract and process them.</string>
+
+    <string name="faq4">What are the do’s and don’ts of recycling ?</string>
+    <string name="faq4a">Do: when recycling plastic bottles please ensure that all lids and covers are not taken out</string>
+    <string name="faq4b">Do: Separate plastics, cans and paper in different packages</string>
+    <string name="faq4c">Don’t: Recycle food. Make sure your food cans, bottles, and containers are clean of all food residue before putting them in to the recycling bin.</string>
+    <string name="faq4d">Do: Try to reuse items that are not recyclable</string>
+    <string name="faq4e">Don’t: Do not recycle plastic shopping bags with other recyclables.</string>
+    <string name="faq4f">Do: It is best practice to break down cardboard down to optimize the space in your recycling package.</string>
+    <string name="faq4g">Don’t: P.E.T bottles are slightly different from other plastic so please do not mix P.E.T bottles in the same stack or package with other plastics.</string>
+
+    <string name="faq5">Why am I unable to install U-cycle Scrap app on my phone ?</string>
+    <string name="faq5a">Ensure to have minimum Android 5.0 (lollipop) version on your device. If after wards problems persists please contact U-cycle help care channels.</string>
+
+    <string name="faq6">How do I best manage my collections before U-cycle pick up ?</string>
+    <string name="faq6a">Most users prefer to use nylon bin bags to store their recyclables separately while awaiting pickup.</string>
+
+    <string name="faq7">How long does it take for U-cycle order to be picked up ?</string>
+    <string name="faq7a">Generally the waiting period for pickup is within 2 to 7 days depending on the pickup location.</string>
+
+    <string name="faq8">Do I get paid for recycling through the U-cycle ecosystem ?</string>
+    <string name="faq8a">Yes, depending on your preference you can get cash, mobile phone units or gift items for your recyclables.</string>
+
+    <string name="faq9">Can I exchange my used plastic for other useful items ?</string>
+    <string name="faq9a">Yes, depending on the value of your recyclables you will be able to select items listed on our online store in exchange for your plastics.</string>
+
+    <string name="faq9_9">How do I purchase items on the U-cycle Store ?</string>
+    <string name="faq9_9a">To purchase Items on the U-cycle store you will first select the credit my wallet option when checking out your orders and then make your desired purchases which will then be delivered to you upon your next pickup date</string>
+
+    <string name="faq10">How much can I make from recycling ?</string>
+    <string name="faq10a">According to our survey an average household can gather a minimum of up to 15 - 20kg of recyclable materials ranging from plastics to metal and tin cans within a 1 month period.</string>
+
+    <string name="faq11">When do I get paid for my waste ?</string>
+    <string name="faq11a">Once our agents arrive at you location and confirm your order items, you will get paid immediately. The exception arises if you selected the “credit my U-cycle wallet” option which you will receive a credit notification on your app within 24 hours.</string>
+
+    <string name="faq12">What is the RCY token ?</string>
+    <string name="faq12a">The Recycle token (RCY) is the native currency of the U-cycle recycling ecosystem.  The value of 1 Rcy is equivalent to the value of 10kg of plastic waste. i.e. 1 RCY = 10kg of plastic.</string>
+
+    <string name="faq13">Can I redeem my RCY token balance for Naira ?</string>
+    <string name="faq13a">Yes. If you have Rcy token in your wallet you can easily convert it to naira and transfer to your regular bank account.</string>
+
+    <string name="faq14">How is the value of my waste calculated ?</string>
+    <string name="faq14a">The value of the recyclables you select are calculated by the estimated weight of each item and the prevailing rate of the material price per kg.</string>
+
+    <string name="faq15">Can I purchase Items on the U-Cycle store without participating in the U-cycle ecosystem ?</string>
+    <string name="faq15a">No.</string>
+
+    <string name="faq16">How do I know the type of plastic material a product is made of ?</string>
+    <string name="faq16a">There is information of the type of plastic a product is made of engraved under the item. It is usually in the form P.E.T, P.P, H.D.P.E etc.</string>
+
+
+</resources>
