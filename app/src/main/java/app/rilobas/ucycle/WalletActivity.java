@@ -31,9 +31,9 @@ public class WalletActivity extends Activity {
     ListView listView;
     TextView tvExchange;
 
-    DatabaseReference reff;
-    Double myBalance;
-    Double myETHBalance;
+    //DatabaseReference reff;
+    //Double myBalance;
+    //Double myETHBalance;
     public static TextView tvBal;
 
     static final String[] MENU_OS = new String[]{
@@ -71,6 +71,9 @@ public class WalletActivity extends Activity {
         bundleu.putString("user_email", u_email);
 
         tvBal = (TextView) findViewById(R.id.txtWallBal);
+        tvBal.setText("Balance:" + "\n" +
+                ProfileActivity.symbol + ": " + ProfileActivity.uBalance
+        );
 
         final Intent intent_bank = new Intent(WalletActivity.this, BankActivity.class);
         intent_bank.putExtras(bundleu);
@@ -102,7 +105,7 @@ public class WalletActivity extends Activity {
         });
 
 
-        reff = FirebaseDatabase.getInstance().getReference().child("Member");
+        /*reff = FirebaseDatabase.getInstance().getReference().child("Member");
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -121,7 +124,7 @@ public class WalletActivity extends Activity {
                 }
 
                 tvBal.setText("Balance:" + "\n" +
-                        ProfileActivity.symbol + ": " + myBalance
+                        ProfileActivity.symbol + ": " + ProfileActivity.uBalance
                 );
             }
 
@@ -129,7 +132,7 @@ public class WalletActivity extends Activity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        });
+        });*/
 
 
         tvExchange = (TextView) findViewById(R.id.textViewExc);

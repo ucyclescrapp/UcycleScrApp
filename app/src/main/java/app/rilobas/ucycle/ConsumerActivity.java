@@ -46,7 +46,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ConsumerActivity extends Activity {
 
     String u_email;
-    static Double myBalance;
+    //static Double myBalance;
 
     String[] i_id;
     String[] i_bartercode;
@@ -69,7 +69,7 @@ public class ConsumerActivity extends Activity {
 
     ImageButton ibSchedule;
 
-    DatabaseReference reff;
+    //DatabaseReference reff;
 
     String option;
     String gResponse;
@@ -100,7 +100,7 @@ public class ConsumerActivity extends Activity {
         getJSON("https://u-cycle.app/15U-CycleWeb/api/product/userreadstore.php?m_us=" + u_email);
 
 
-        reff = FirebaseDatabase.getInstance().getReference().child("Member");
+        /*reff = FirebaseDatabase.getInstance().getReference().child("Member");
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -120,7 +120,7 @@ public class ConsumerActivity extends Activity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        });
+        });*/
 
         ibSchedule = (ImageButton) findViewById(R.id.imagebuttontop2);
         ibSchedule.setOnClickListener(new View.OnClickListener() {
@@ -284,7 +284,7 @@ public class ConsumerActivity extends Activity {
         ProfileActivity.sListBarterBackup = bsList;
         String d2p = String.format("%.2f", btotalprice);
         tvWeight.setText("Cart total: " + d2p + " " + ProfileActivity.symbol +
-                "\nWallet bal: " + myBalance + " " + ProfileActivity.symbol);
+                "\nWallet bal: " + ProfileActivity.uBalance + " " + ProfileActivity.symbol);
 
     }
 }

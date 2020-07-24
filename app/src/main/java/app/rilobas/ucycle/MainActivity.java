@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 
     boolean connected = false;
     ConnectivityManager connectivityManager;
-    String rilobas_version = "u-cycle-v101.7";
+    String rilobas_version = "u-cycle-v101.8";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

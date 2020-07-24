@@ -120,7 +120,7 @@ public class StoreImageAdapter extends BaseAdapter {
 
                     double totalItemPrice = Double.parseDouble(itemPrice[position])
                             * Double.parseDouble(String.valueOf(spinner.getSelectedItemId()));
-                    if ((ConsumerActivity.btotalprice + totalItemPrice) <= ConsumerActivity.myBalance) {
+                    if ((ConsumerActivity.btotalprice + totalItemPrice) <= ProfileActivity.uBalance) {
 
                         Toast.makeText(mContext, textView.getText() + "\n" +
                                         "(" + spinner.getSelectedItem().toString() + " x " + itemPrice[position] + " " + ProfileActivity.symbol + ")" +
