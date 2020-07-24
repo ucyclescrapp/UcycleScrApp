@@ -390,5 +390,8 @@ public class ProfileActivity extends Activity {
         }
 
         uBalance = Double.parseDouble(e_result) / Double.parseDouble(ethValue.replace(",", ""));
+
+        Toast.makeText(ProfileActivity.this, String.valueOf(uBalance) + " " + ProfileActivity.symbol, Toast.LENGTH_SHORT).show();
+
     }
 }
