@@ -122,7 +122,7 @@ public class LoginActivity extends Activity {
 
                                             finish();
                                         } else {
-                                            Toast.makeText(LoginActivity.this, "u-cycle: Please click the link sent to your mail to verify your account", Toast.LENGTH_LONG).show();
+                                            Toast.makeText(LoginActivity.this, "u-cycle: Please click the link sent to your mail to verify your account. (you may need to check your spam folder)", Toast.LENGTH_LONG).show();
                                             mLogin.setVisibility(View.VISIBLE);
                                         }
 

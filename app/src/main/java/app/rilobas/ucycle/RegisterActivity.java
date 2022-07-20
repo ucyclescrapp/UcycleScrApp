@@ -66,7 +66,7 @@ public class RegisterActivity extends Activity {
                 user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null) {
 
-                    getJSON("https://u-cycle.app/15U-CycleWeb/api/product/createregmapping.php?m_us=" + user.getEmail());
+                    getJSON(MainActivity.app_url + "/product/createregmapping.php?m_us=" + user.getEmail());
 
 
                 }

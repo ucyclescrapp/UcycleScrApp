@@ -27,7 +27,8 @@ public class MainActivity extends Activity {
 
     boolean connected = false;
     ConnectivityManager connectivityManager;
-    String rilobas_version = "u-cycle-v101.8";
+    String rilobas_version = "u-cycle-v111.0";
+    public static String app_url = "https://u-cycle.app/api";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +66,19 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(MainActivity.this, "developed by https://rilobas.app", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "developed by https://rilobas.app", Toast.LENGTH_SHORT).show();
+                connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+                TryConnect();
+
+                if (connected) {
+                    Animation anim3 = AnimationUtils.loadAnimation(MainActivity.this, R.anim.anim3);
+                    ibc.startAnimation(anim3);
+
+                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(MainActivity.this, "u-cycle: Please check internet status.", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });

@@ -80,7 +80,7 @@ public class SummaryscheduleActivity extends Activity {
         ArrayAdapter<String> adaptr = new ArrayAdapter<String>(this, R.layout.spinner_item, bsh);
         ppmSelect.setAdapter(adaptr);
 
-        final ImageView imgv = (ImageView)findViewById(R.id.imageView2);
+        final ImageView imgv = (ImageView) findViewById(R.id.imageView2);
 
         ppmSelect.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -89,17 +89,17 @@ public class SummaryscheduleActivity extends Activity {
                     Animation anim3 = AnimationUtils.loadAnimation(SummaryscheduleActivity.this, R.anim.anim3);
                     imgv.startAnimation(anim3);
 
-                    switch (position){
-                        case(1):
+                    switch (position) {
+                        case (1):
                             wr_ppm = "CASH";
                             break;
-                        case(2):
+                        case (2):
                             wr_ppm = "AIRTIME";
                             break;
-                        case(3):
+                        case (3):
                             wr_ppm = "WALLET";
                             break;
-                        case(4):
+                        case (4):
                             wr_ppm = "GIFT";
                             break;
                     }
@@ -133,13 +133,12 @@ public class SummaryscheduleActivity extends Activity {
 
 
         txtSummary = (TextView) findViewById(R.id.textView32);
-        String summary = "Cart: " + wr_orders + "\n"
-                + "Total Price: N" + wr_total_price + "k\n"
+        String summary = //"Cart: " + wr_orders + "\n" +
+                "Total Price: N" + wr_total_price + "k\n"
                 + "Total Weight: " + wr_total_weight + "kg\n"
                 + "Pickup Location: " + wr_pickup_location + "\n"
                 + "Pickup Date: " + wr_pickup_date + "\n"
-                + "Pickup Time: " + wr_pickup_time + "\n"
-                ;
+                + "Pickup Time: " + wr_pickup_time + "\n";
 
         txtSummary.setText(summary);
 
@@ -175,7 +174,7 @@ public class SummaryscheduleActivity extends Activity {
 
                         btnProceed.setVisibility(View.INVISIBLE);
 
-                        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/createschedule.php?m_or=" + wr_orders
+                        getJSON(MainActivity.app_url + "/product/createschedule.php?m_or=" + wr_orders
                                 + "&m_tp=" + wr_total_price
                                 + "&m_tw=" + wr_total_weight
                                 + "&m_us=" + wr_username

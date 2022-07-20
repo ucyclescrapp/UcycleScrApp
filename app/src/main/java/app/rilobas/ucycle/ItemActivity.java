@@ -69,7 +69,7 @@ public class ItemActivity extends Activity {
         final String u_plastictytpe = bundle.getString("_plastictype");
 
 
-        final String imgURL = "https://u-cycle.app/15U-CycleWeb/api/images/" + u_itempicture + ".png";
+        final String imgURL = MainActivity.app_url + "/images/" + u_itempicture + ".png";
 
 
         Picasso.with(this)

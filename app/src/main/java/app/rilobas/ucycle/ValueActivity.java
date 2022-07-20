@@ -101,7 +101,7 @@ public class ValueActivity extends Activity {
                 "PAPER"
         };
 
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/read.php");
+        getJSON(MainActivity.app_url + "/product/read.php");
 
 
         final ImageView imgv = (ImageView) findViewById(R.id.imageView4);

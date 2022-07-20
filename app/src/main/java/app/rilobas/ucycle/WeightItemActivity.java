@@ -58,7 +58,7 @@ public class WeightItemActivity extends Activity {
         final String u_price = bundle.getString("_price");
         final String u_plasticpicture = bundle.getString("_plasticpicture");
 
-        final String imgURL = "https://u-cycle.app/15U-CycleWeb/api/images/" + u_plasticpicture + ".png";
+        final String imgURL = MainActivity.app_url + "/images/" + u_plasticpicture + ".png";
 
 
         Picasso.with(this)

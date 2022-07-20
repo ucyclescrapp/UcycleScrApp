@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">U-Cycle</string>
     <string name="dev_name">developed by rilobas.app</string>
-    <string name="copyright_name">© U-Cycle 2020</string>
+    <string name="copyright_name">© U-Cycle 2020-2022</string>
 
     <string name="stvalueitems">Items</string>
     <string name="stvalue">Value My Waste</string>
@@ -45,9 +45,9 @@
 
     <string name="st_con1">Phone: +234 907 333 6000</string>
     <string name="st_con2">Email: info@u-cycle.app</string>
-    <string name="st_con3">Twitter: @Ucycle_Recycle</string>
-    <string name="st_con4">Facebook: @Ucyclescrapapp</string>
-    <string name="st_con5">Instagram: </string>
+    <string name="st_con3">Twitter: @ucyclescrapp</string>
+    <string name="st_con4">Facebook: @ucyclescrapp</string>
+    <string name="st_con5">Instagram: @ucyclescrapp</string>
 
     <string name="storepage_name">Barter Shop</string>
 
@@ -63,7 +63,7 @@
     <string name="sp_qty">Qty: </string>
 
     <string name="etherscan_ref">Powered by Etherscan.io APIs</string>
-    <string name="i_start">click the icon to begin</string>
+    <string name="i_start">Tap the icon to begin</string>
 
     <string name="stconfirmcart">Confirm Cart</string>
 

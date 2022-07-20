@@ -102,7 +102,7 @@ public class ScheduleActivity extends Activity {
 
         parsedDate = false;
         option = "gDate";
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/misc/getst.php");
+        getJSON(MainActivity.app_url + "/misc/getst.php");
 
         rg1 = (RadioGroup) findViewById(R.id.radioGroup1);
         rg2 = (RadioGroup) findViewById(R.id.radioGroup2);

@@ -97,7 +97,7 @@ public class ConsumerActivity extends Activity {
         gvItem = (GridView) findViewById(R.id.GridView1);
 
         option = "check";
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/userreadstore.php?m_us=" + u_email);
+        getJSON(MainActivity.app_url + "/product/userreadstore.php?m_us=" + u_email);
 
 
         /*reff = FirebaseDatabase.getInstance().getReference().child("Member");
@@ -245,7 +245,7 @@ public class ConsumerActivity extends Activity {
 
             if (gResponse.equals("NotFound")) {
                 option = "read";
-                getJSON("https://u-cycle.app/15U-CycleWeb/api/product/readstore.php");
+                getJSON(MainActivity.app_url + "/product/readstore.php");
 
             } else {
                 Toast.makeText(getApplicationContext(), "Previous barter in progress please wait", Toast.LENGTH_SHORT).show();

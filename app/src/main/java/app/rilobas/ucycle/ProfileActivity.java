@@ -116,7 +116,8 @@ public class ProfileActivity extends Activity {
             pad += " ";
         }
         option = "readNotes";
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/readnotes.php");
+
+        getJSON(MainActivity.app_url + "/product/readnotes.php");
         //
 
 
@@ -322,7 +323,7 @@ public class ProfileActivity extends Activity {
 
         String ue_email = Uri.encode(u_email);
         option = "readMap";
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/checkmap.php?m_us=" + ue_email);
+        getJSON(MainActivity.app_url +  "/product/checkmap.php?m_us=" + ue_email);
     }
 
     private void ReadMap(String json) throws JSONException {
@@ -373,7 +374,7 @@ public class ProfileActivity extends Activity {
             listView.setVisibility(View.INVISIBLE);
             Toast.makeText(ProfileActivity.this, "Email verified!", Toast.LENGTH_LONG).show();
 
-            tve.setText("Your account is currently being provisioned, kindly check back in 60 minutes. \n\n If you still cannot access the complete services, send us a message: \nhelp@u-cycle.app");
+            tve.setText("Your account is currently being provisioned, try again in a few minutes. \n\n If you still cannot access the app services, send us a message here: \nhelp@u-cycle.app");
             tve.setVisibility(View.VISIBLE);
         }
     }

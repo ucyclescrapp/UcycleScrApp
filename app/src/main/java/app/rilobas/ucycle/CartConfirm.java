@@ -259,7 +259,7 @@ public class CartConfirm extends Activity {
     }
 
     public void SendBarterSchedule(String[] action_schedule) {
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/createbarterschedule.php?m_or=" + action_schedule[0]
+        getJSON(MainActivity.app_url + "/product/createbarterschedule.php?m_or=" + action_schedule[0]
                 + "&m_tp=" + action_schedule[1]
                 + "&m_tw=" + action_schedule[2]
                 + "&m_us=" + action_schedule[3]

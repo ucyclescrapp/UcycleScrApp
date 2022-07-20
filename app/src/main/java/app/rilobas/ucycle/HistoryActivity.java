@@ -83,7 +83,7 @@ public class HistoryActivity extends Activity {
             }
         });
 
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/readhistory.php?m_hu=" + user_email);
+        getJSON(MainActivity.app_url +  "/product/readhistory.php?m_hu=" + user_email);
     }
 
     private void getJSON(final String urlWebService) {

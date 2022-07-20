@@ -82,7 +82,7 @@ public class WeightActivity extends Activity {
         totalmass = 0.0;
         totalprice = 0.0;
 
-        getJSON("https://u-cycle.app/15U-CycleWeb/api/product/readtype.php");
+        getJSON(MainActivity.app_url + "/product/readtype.php");
 
         final ImageView imgv = (ImageView) findViewById(R.id.imageView4);
 

@@ -32,7 +32,7 @@
         android:layout_marginTop="-32dp"
         android:gravity="left"
         android:text="@string/stwallbal"
-        android:textColor="@android:color/background_light"
+        android:textColor="@color/uGreenDark"
         android:textSize="18dp"
         android:textStyle="bold" />
 

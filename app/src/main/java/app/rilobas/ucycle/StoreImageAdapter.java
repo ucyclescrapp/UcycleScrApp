@@ -47,7 +47,7 @@ public class StoreImageAdapter extends BaseAdapter {
         imageTotal = itemPicture.length;
         for (int i = 0; i < imageTotal; i++) {
 
-            ThumbIds.add("https://u-cycle.app/15U-CycleWeb/api/images/" + itemPicture[i] + ".png");
+            ThumbIds.add(MainActivity.app_url + "/images/" + itemPicture[i] + ".png");
         }
 
         mThumbIds = ThumbIds.toArray(new String[0]);

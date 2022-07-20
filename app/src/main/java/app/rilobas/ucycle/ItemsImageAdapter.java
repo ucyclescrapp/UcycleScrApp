@@ -56,7 +56,7 @@ public class ItemsImageAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) gridView.findViewById(R.id.grid_item_image);
 
-        final String imgURL = "https://www.u-cycle.app/15U-CycleWeb/api/images/thumb/"+ itemPicture[position] + ".png";
+        final String imgURL = MainActivity.app_url + "/images/thumb/"+ itemPicture[position] + ".png";
         new DownLoadImageTask(imageView).execute(imgURL);
 
         return gridView;

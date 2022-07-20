@@ -45,7 +45,7 @@ public class SummaryaddActivity extends Activity {
         separated[1] = (String.format("%.2f", Double.parseDouble(separated[1])));
 
         final String u_itempicture = bundle.getString("_itempicture");
-        final String imgURL = "https://u-cycle.app/15U-CycleWeb/api/images/" + u_itempicture + ".png";
+        final String imgURL = MainActivity.app_url + "/images/" + u_itempicture + ".png";
         Picasso.with(this)
                 .load(imgURL)
                 .placeholder(R.drawable.uload)
