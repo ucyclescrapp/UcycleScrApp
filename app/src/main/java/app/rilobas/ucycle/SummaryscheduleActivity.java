@@ -85,6 +85,8 @@ public class SummaryscheduleActivity extends Activity {
         ppmSelect.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                txtResponse.setText("");
+
                 if (position != 0) {
                     Animation anim3 = AnimationUtils.loadAnimation(SummaryscheduleActivity.this, R.anim.anim3);
                     imgv.startAnimation(anim3);
